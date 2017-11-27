@@ -54,6 +54,13 @@ exports.JournalBot = functions.https.onRequest((request, response) => {
   // Build an action map, which maps intent names to functions
   let actionMap = new Map();
   actionMap.set(QUESTION_1, reflect);
+  actionMap.set(QUESTION_2, reflect);
+  actionMap.set(QUESTION_3, reflect);
+  actionMap.set(QUESTION_4, reflect);
+  actionMap.set(QUESTION_5, reflect);
+  actionMap.set(QUESTION_6, reflect);
+  actionMap.set(QUESTION_7, reflect);
+  actionMap.set(QUESTION_8, reflect);
 
   app.handleRequest(actionMap);
 });
