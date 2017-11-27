@@ -1,0 +1,23 @@
+{
+  "name": "journalbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjs04/JournalBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anjs04/JournalBot/issues"
+  },
+  "homepage": "https://github.com/Anjs04/JournalBot#readme",
+  "dependencies": {
+    "actions-on-google": "^1.6.1",
+    "firebase-functions": "^0.7.3"
+  }
+}
